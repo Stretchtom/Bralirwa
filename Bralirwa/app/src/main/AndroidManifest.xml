@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rodrigue.bralirwa" >
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".depot_fragment"
+            android:label="@string/title_activity_depot_fragment" >
+        </activity>
+        <activity
+            android:name=".orders_fragment"
+            android:label="@string/title_activity_orders_fragment" >
+        </activity>
+        <activity
+            android:name=".blah_fragment"
+            android:label="@string/title_activity_blah_fragment" >
+        </activity>
+    </application>
+
+</manifest>

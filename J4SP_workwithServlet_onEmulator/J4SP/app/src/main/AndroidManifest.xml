@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.wendy_guo.j4sp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".view.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".view.SignUpActivity"
+            android:label="@string/title_activity_sign_up" />
+        <activity
+            android:name=".view.SettingActivity"
+            android:label="@string/title_activity_setting" />
+        <activity
+            android:name=".view.TakePhotoActivity"
+            android:label="@string/title_activity_take_photo" />
+        <activity
+            android:name=".view.UploadActivity"
+            android:label="@string/title_activity_upload" />
+        <activity
+            android:name=".view.PickPhotoActivity"
+            android:label="@string/title_activity_pick_photo" />
+        <activity
+            android:name=".view.GetLocationActivity"
+            android:label="@string/title_activity_get_location" >
+        </activity>
+        <activity
+            android:name=".ViewRecordListActivity"
+            android:label="@string/title_activity_view_record_list" >
+        </activity>
+        <activity
+            android:name=".view.ViewSummaryActivity"
+            android:label="@string/title_activity_view_summary" >
+        </activity>
+        <activity
+            android:name=".view.FragListActivity"
+            android:label="@string/title_activity_frag_list" >
+        </activity>
+        <activity
+            android:name=".view.ShareActivity"
+            android:label="@string/title_activity_share"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+        </activity>
+        <activity
+            android:name=".view.SMSActivity"
+            android:label="@string/title_activity_sms" >
+        </activity>
+
+        <receiver
+            android:name=".broadcastReceiver.UploadSignalReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.example.wendy_guo.j4sp.CUSTOM_INTENT.CANCEL_ALARM" />
+                <action android:name="com.example.wendy_guo.j4sp.CUSTOM_INTENT.SET_ALARM" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".service.UploadInBackgroundService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".view.ViewWebPageActivity"
+            android:label="@string/title_activity_view_web_page" >
+        </activity>
+        <activity
+            android:name=".view.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name=".view.SearchResultListActivity"
+            android:label="@string/title_activity_search_result_list" >
+        </activity>
+        <activity
+            android:name=".view.SearchPagerActivity"
+            android:label="@string/title_activity_search_pager" >
+        </activity>
+    </application>
+
+</manifest>

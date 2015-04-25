@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bralirwa</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_depot_fragment">depot_fragment</string>
+    <string name="title_activity_orders_fragment">orders_fragment</string>
+    <string name="title_activity_blah_fragment">blah_fragment</string>
+</resources>

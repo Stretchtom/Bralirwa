@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">Receipt Tracker</string>
+
+        <string name="hello_world">Hello world!</string>
+        <string name="action_settings">Settings</string>
+        <string name="title_activity_login">LoginActivity</string>
+        <string name="content_desc_background">bg</string>
+        <string name="login_button_label">Log in</string>
+        <string name="sign_up_text">Don\'t have an account? click here to sign up!</string>
+        <string name="username_hint">username</string>
+        <string name="password_hint">password</string>
+        <string name="title_activity_sign_up">SignUpActivity</string>
+        <string name="email_hint">e-mail</string>
+        <string name="sign_up_button_label">Sign up</string>
+        <string name="signup_error_message">Please enter your username/password/email</string>
+        <string name="error_title">Oops</string>
+        <string name="login_error_message">Pleass enter username and password</string>
+        <string name="title_activity_setting">SettingActivity</string>
+        <string name="log_out_button_label">Log out</string>
+        <string name="expired">Log In Expired. Please log in again!</string>
+        <string name="setting_image_quality">Allow Image Compression</string>
+        <string name="title_activity_take_photo">TakePhotoActivity</string>
+        <string name="error_external_storage">cant write to ex storage</string>
+        <string name="title_activity_upload">UploadActivity</string>
+        <string name="merchant_name">merchant name</string>
+        <string name="total_cost">total cost</string>
+        <string name="comments">add comments</string>
+        <string name="upload_button">Upload</string>
+        <string name="no_input">Merchant name and total cost are not optional</string>
+        <string name="success_message">Success!</string>
+        <string name="title_activity_pick_photo">PickPhotoActivity</string>
+    <string name="title_activity_get_location">GetLocationActivity</string>
+    <string name="title_activity_view_history">ViewHistoryActivity</string>
+
+
+    <string name="title_section1">Upload History</string>
+    <string name="title_section2">Download History</string>
+    <string name="title_section1s">Search Record</string>
+    <string name="title_section2s">Downloaded file</string>
+    <string name="title_activity_view_records">ViewRecordsActivity</string>
+    <string name="title_activity_view_record_list">ViewRecordListActivity</string>
+    <string name="title_activity_view_summary">ViewSummaryActivity</string>
+    <string name="edit_button">Edit</string>
+    <string name="delete_button">Delete</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_frag_list">FragListActivity</string>
+    <string name="save_button">Save</string>
+    <string name="summary_upload">SUMMARY</string>
+    <string name="save_to_gallery_Switch">save download picture to Gallery</string>
+    <string name="sync_when_wifi_available_Switch">upload when wifi available</string>
+    <string name="default_currency">USD$</string>
+
+
+
+    <string-array name="currency_choices">
+        <item>United States Dollar</item>
+        <item>China Yuan RMB</item>
+        <item>Euro Member Countries</item>
+        <item>India Rupee</item>
+        <item>Australia Dollar</item>
+        <item>Canada Dollar</item>
+    </string-array>
+    <string-array name="share_choices">
+        <item>Take Photo (e-mail)</item>
+        <item>Pick Photo (e-mail)</item>
+        <item>Take Photo (sms)</item>
+        <item>Pick Photo (sms)</item>
+        <item>Choose File</item>
+    </string-array>
+    <string-array name="yN">
+        <item>YES, e-mail friends</item>
+        <item>YES, text friends</item>
+        <item>NO, bring me back</item>
+    </string-array>
+    <string-array name="Choice">
+        <item>YES</item>
+        <item>NO</item>
+    </string-array>
+    <string name="title_activity_share">ShareActivity</string>
+    <string name="mail_to">mail to:</string>
+    <string name="mail_title">Title</string>
+    <string name="mail_body">Body:</string>
+    <string name="send_mail">send</string>
+    <string name="title_activity_sms">SMSActivity</string>
+    <string name="text_to">Numbers</string>
+    <string name="title_activity_download">DownloadActivity</string>
+    <string name="preference_file_key">com.example.wendy_guo.j4sp_PREFERENCE</string>
+    <string name="show">View Detail</string>
+    <string name="title_activity_view_web_page">ViewWebPageActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="searchName">merchant name</string>
+    <string name="search">Search</string>
+    <string name="title_activity_search_result_list">SearchResultListActivity</string>
+    <string name="main_no_items">No matching record</string>
+    <string name="title_activity_search_pager">SearchPagerActivity</string>
+
+
+</resources>

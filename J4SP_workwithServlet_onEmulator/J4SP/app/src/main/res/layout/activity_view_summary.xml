@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/apptheme_color"
+    tools:context="com.example.wendy_guo.j4sp.view.ViewSummaryActivity">
+
+    <TextView
+        android:id="@+id/summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/summary_upload"
+        android:gravity="center_horizontal"
+        android:textSize="50dp"
+        android:textColor="@color/light_gray"/>
+    <EditText
+        android:id="@+id/summaryFileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/summary"
+        android:layout_marginBottom="@dimen/edit_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:background="@color/light_purple_button"
+
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textColor="@color/text_color"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/summaryTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edit_margin"
+        android:layout_marginBottom="@dimen/edit_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@id/summaryFileName"
+        android:background="@color/light_purple_button"
+
+        android:padding="@dimen/activity_horizontal_margin"
+        android:textColor="@color/text_color"
+        android:textStyle="bold"
+        />
+    <TextView
+
+        android:id="@+id/summaryDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/edit_margin"
+        android:layout_marginBottom="@dimen/edit_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@id/summaryTotal"
+        android:background="@color/light_purple_button"
+
+        android:padding="@dimen/activity_horizontal_margin"
+        android:text=""
+        android:textColor="@color/text_color"
+        android:editable="false"/>
+    <EditText
+        android:id="@+id/summaryComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/edit_margin"
+        android:layout_marginBottom="@dimen/edit_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@id/summaryDate"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:background="@color/light_purple_button"
+
+        android:textColor="@color/text_color"
+        android:textStyle="italic"
+        />
+    <Button
+        android:id="@+id/show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/summaryComment"
+        android:text="@string/show"
+        android:gravity="center_horizontal"
+        android:background="@color/button_color"
+        />
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/show"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/save_button"
+        android:gravity="center_horizontal"
+        android:background="@color/button_color"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/receipt"/>
+
+
+
+
+</RelativeLayout>
