@@ -23,6 +23,8 @@ public class TabsPagerAdapter extends FragmentPagerAdapter {
                 return new blah_fragment();
             case 2:
                 return new orders_fragment();
+            case 3:
+                return new customers_fragment();
         }
 
         return null;
@@ -30,6 +32,6 @@ public class TabsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 }

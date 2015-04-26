@@ -1,5 +1,5 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="200dp"
+    android:layout_width="200dp"
     android:layout_height="400dp" android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
@@ -17,7 +17,7 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:id="@+id/editText"
-        android:text="New Product" />
+        android:text="New Customer" />
 
     <Button
         android:layout_width="200dp"

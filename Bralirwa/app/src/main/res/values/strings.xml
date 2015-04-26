@@ -6,4 +6,7 @@
     <string name="title_activity_depot_fragment">depot_fragment</string>
     <string name="title_activity_orders_fragment">orders_fragment</string>
     <string name="title_activity_blah_fragment">blah_fragment</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_customers_fragment">customers_fragment</string>
 </resources>

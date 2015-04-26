@@ -3,12 +3,13 @@
     package="com.example.rodrigue.bralirwa" >
 
     <application
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/heineken"
         android:label="@string/app_name"
+        android:logo="@drawable/phparugvwpm"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name" >
+            android:name=".Bralirwa"
+            android:label="Bralirwa" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -16,16 +17,28 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".MainActivity"
+            android:label="Bralirwa" >
+        </activity>
+        <activity
             android:name=".depot_fragment"
-            android:label="@string/title_activity_depot_fragment" >
+            android:label="Bralirwa" >
         </activity>
         <activity
             android:name=".orders_fragment"
-            android:label="@string/title_activity_orders_fragment" >
+            android:label="Bralirwa" >
         </activity>
         <activity
             android:name=".blah_fragment"
-            android:label="@string/title_activity_blah_fragment" >
+            android:label="Bralirwa" >
+        </activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".customers_fragment"
+            android:label="@string/title_activity_customers_fragment" >
         </activity>
     </application>
 
