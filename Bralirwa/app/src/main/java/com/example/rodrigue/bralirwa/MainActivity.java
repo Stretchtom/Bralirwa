@@ -2,6 +2,8 @@ package com.example.rodrigue.bralirwa;
 
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
@@ -24,6 +26,8 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 
         viewPager = (ViewPager) findViewById(R.id.pager);
         actionBar = getActionBar();
+
+        actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#006400")));
         pagerAdapter = new TabsPagerAdapter(getSupportFragmentManager());
 
         viewPager.setAdapter(pagerAdapter);

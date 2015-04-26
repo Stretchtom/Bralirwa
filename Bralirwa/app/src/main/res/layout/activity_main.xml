@@ -12,13 +12,5 @@
         android:id="@+id/pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"></android.support.v4.view.ViewPager>
-    <FrameLayout android:id="@+id/orders_fragment" android:layout_weight="1"
-        android:layout_width="100dp"
-        android:layout_height="match_parent"
-        android:layout_marginRight="98dp"
-        android:layout_marginEnd="98dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>
