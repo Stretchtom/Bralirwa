@@ -9,4 +9,5 @@
     <string name="title_activity_login">login</string>
     <string name="title_activity_register">Register</string>
     <string name="title_activity_customers_fragment">customers_fragment</string>
+    <string name="title_activity_order">Order</string>
 </resources>
