@@ -3,16 +3,12 @@
     package="com.example.rodrigue.bralirwa" >
 
     <application
-
-        android:label="@string/app_name"
-
         android:icon="@drawable/logo"
+        android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
             android:name=".Bralirwa"
-            android:label="Bralirwa"
-            >
-
+            android:label="Bralirwa" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
