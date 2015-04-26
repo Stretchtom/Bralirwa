@@ -22,7 +22,7 @@ public class TabsPagerAdapter extends FragmentPagerAdapter {
             case 1:
                 return new blah_fragment();
             case 2:
-                return new orders_fragment();
+                return new orders_made();
             case 3:
                 return new customers_fragment();
         }
