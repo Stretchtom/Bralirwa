@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/username"
         android:layout_marginTop="106dp"
-        android:text="Username"
+        android:hint="Username"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
@@ -24,7 +24,7 @@
         android:layout_below="@+id/username"
         android:layout_alignLeft="@+id/username"
         android:layout_alignStart="@+id/username"
-        android:text="Password" />
+        android:hint="Password" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -32,7 +32,7 @@
         android:inputType="phone"
         android:ems="10"
         android:id="@+id/address"
-        android:text="              Phone Number"
+        android:hint="              Phone Number"
         android:layout_below="@+id/password"
         android:layout_centerHorizontal="true" />
 

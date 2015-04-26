@@ -2,12 +2,18 @@ package com.example.rodrigue.bralirwa;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.ColorFilter;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
@@ -23,6 +29,9 @@ public class Bralirwa extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bralirwa);
+        getActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#006400")));
+
+        getActionBar().setLogo(getDrawable(R.drawable.homebackgroud));
         setTitle("Bralirwa Sales");
 
         username=(EditText)findViewById(R.id.username);
